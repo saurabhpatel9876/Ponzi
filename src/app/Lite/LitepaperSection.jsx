@@ -34,7 +34,7 @@ export default function LitepaperSection() {
           Introduction
         </h2>
         <p className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
-          <span className="font-bold text-purple-300">PWINT</span>—Print Money in Network Transaction—is a <span className="italic">trailblazing token</span> on the Solana blockchain, designed to turn holding into a <span className="text-green-300">passive income stream</span> by delivering <span className="font-semibold">SOL rewards every 15 minutes</span>. Built on Solana’s high-speed, low-cost network, PWINT embodies its name: a system that “prints” wealth through seamless network transactions. <span className="text-yellow-300">Join us in revolutionizing DeFi rewards.</span>
+          <span className="font-bold text-purple-300">PWINT</span>—Print Money in Network Transaction—is a <span className="italic">trailblazing token</span> on the Solana blockchain, designed to turn holding into a <span className="text-green-300">passive income stream</span> by delivering <span className="font-semibold">SOL rewards every 10 minutes</span>. Built on Solana’s high-speed, low-cost network, PWINT embodies its name: a system that “prints” wealth through seamless network transactions. <span className="text-yellow-300">Join us in revolutionizing DeFi rewards.</span>
         </p>
       </div>
 
@@ -61,7 +61,7 @@ export default function LitepaperSection() {
             <h3 className="text-2xl font-semibold text-purple-300">Our Solution</h3>
             <p>PWINT delivers:</p>
             <ul className="list-disc list-inside space-y-2 pl-4">
-              <li><span className="font-bold text-green-300">Automated SOL Rewards:</span> Earn SOL every 15 minutes simply by holding PWINT.</li>
+              <li><span className="font-bold text-green-300">Automated SOL Rewards:</span> Earn SOL every 10 minutes simply by holding PWINT.</li>
               <li><span className="font-bold text-green-300">5% Tax Mechanism:</span> A 5% buy tax and 5% sell tax fund the reward pool, ensuring sustainability.</li>
               <li><span className="font-bold text-green-300">Solana-Powered:</span> Near-instant transactions and minimal fees maximize your earnings.</li>
             </ul>
@@ -94,7 +94,7 @@ export default function LitepaperSection() {
             <ol className="list-decimal list-inside space-y-2 pl-4">
               <li>Purchase PWINT on [DEX, e.g., Raydium].</li>
               <li>Store PWINT in a Solana wallet (e.g., Phantom).</li>
-              <li>Receive SOL rewards every 15 minutes, proportional to your PWINT holdings, funded by the 5% buy/sell tax.</li>
+              <li>Receive SOL rewards every 10 minutes, proportional to your PWINT holdings, funded by the 5% buy/sell tax.</li>
               <li>Enjoy passive income with confidence—liquidity is burned and secured forever.</li>
             </ol>
           </section>
@@ -103,7 +103,7 @@ export default function LitepaperSection() {
           <section>
             <h3 className="text-2xl font-semibold text-purple-300">Why Solana?</h3>
             <p>
-              Solana’s capacity for up to <span className="font-bold">700,000 transactions per second</span> with negligible costs powers PWINT’s 15-minute reward cycles. Burning the LP tokens leverages Solana’s transparency, ensuring the 1 billion PWINT supply is locked in liquidity <span className="text-yellow-300">permanently</span>.
+              Solana’s capacity for up to <span className="font-bold">700,000 transactions per second</span> with negligible costs powers PWINT’s 10-minute reward cycles. Burning the LP tokens leverages Solana’s transparency, ensuring the 1 billion PWINT supply is locked in liquidity <span className="text-yellow-300">permanently</span>.
             </p>
           </section>
 

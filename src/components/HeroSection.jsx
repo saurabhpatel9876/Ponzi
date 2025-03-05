@@ -2,24 +2,24 @@ export default function HeroSection() {
     return (
       <section className="bg-black text-center text-white min-h-screen flex flex-col justify-center items-center space-y-6 p-8">
         {/* Logo/Identifier */}
-        <div className="text-3xl md:text-4xl font-bold tracking-widest">
-          [$PWINT]
+        <div className="text-4xl md:text-6xl lg:text-7xl font-bold font-serif">
+          $PWINT
         </div>
   
         {/* Title */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-widest ">
           <span className="relative inline-block">
-            <span className="text-white">Print Money in Network Transaction</span>
-            <span className="absolute inset-0 text-pink-500 opacity-60 blur-sm">
+            <span className="text-yellow-400">Print Money in Network Transaction</span>
+            {/* <span className="absolute inset-0 text-yellow-950    opacity-60 blur-sm">
             Print Money in Network Transaction
-            </span>
+            </span> */}
           </span>
         </h1>
   
         {/* Subtitle */}
-        <p className="text-sm md:text-lg lg:text-xl">
+        {/* <p className="text-sm md:text-lg lg:text-xl">
           print Solana rewards every 5 minutes just by holding $PWINT tokens
-        </p>
+        </p> */}
   
         {/* Button Group */}
         <div className="flex flex-wrap justify-center gap-4">

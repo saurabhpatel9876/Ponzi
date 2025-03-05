@@ -2,8 +2,8 @@ import React from "react";
 
 const features = [
   {
-    title: "5 Minute Rewards",
-    description: "Receive $SOL rewards automatically every 5 minutes. No waiting, just continuous earnings.",
+    title: "10 Minute Rewards",
+    description: "Receive $SOL rewards automatically every 10 minutes. No waiting, just continuous earnings.",
   },
   {
     title: "No Lock-up Period",
@@ -12,6 +12,10 @@ const features = [
   {
     title: "Compound Growth",
     description: "Reinvest your rewards to maximize earnings and accelerate your wealth accumulation.",
+  },
+  {
+    title: "Toeknomics",
+    description: "Our token is designed with a fair distribution model and a sustainable reward mechanism..",
   },
 ];
 
