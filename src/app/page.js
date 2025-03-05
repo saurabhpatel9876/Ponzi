@@ -6,6 +6,7 @@ import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ChartDashboard from "@/components/ChartDashboard";
 import NewFeatureSection from "@/components/NewFeatureSection";
+import FeatureCards from "@/components/FeatureCards";
 
 export default function Home() {
 
@@ -19,9 +20,11 @@ export default function Home() {
         
         <Navbar/>
         {/* <LitepaperSection/> */}
-        <HeroSection/>
+        {/* <HeroSection/> */}
         <NewFeatureSection/>
-        <HowItWorks />
+        {/* <HowItWorks /> */}
+        <FeatureCards/>
+        <HeroSection/>
         <Tokenomics/>
       </main>
     </div>

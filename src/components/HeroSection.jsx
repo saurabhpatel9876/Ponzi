@@ -3,22 +3,22 @@ export default function HeroSection() {
       <section className="bg-black text-center text-white min-h-screen flex flex-col justify-center items-center space-y-6 p-8">
         {/* Logo/Identifier */}
         <div className="text-3xl md:text-4xl font-bold tracking-widest">
-          [$SPM]
+          [$PWINT]
         </div>
   
         {/* Title */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">
           <span className="relative inline-block">
-            <span className="text-white">Solana Printing Machine</span>
+            <span className="text-white">Print Money in Network Transaction</span>
             <span className="absolute inset-0 text-pink-500 opacity-60 blur-sm">
-            Solana Printing Machine
+            Print Money in Network Transaction
             </span>
           </span>
         </h1>
   
         {/* Subtitle */}
         <p className="text-sm md:text-lg lg:text-xl">
-          print Solana rewards every 5 minutes just by holding $SPM tokens
+          print Solana rewards every 5 minutes just by holding $PWINT tokens
         </p>
   
         {/* Button Group */}
@@ -36,7 +36,7 @@ export default function HeroSection() {
             Chart
           </a>
           <a
-            href="#"
+            href="https://x.com/pwint_sol"
             className="bg-gray-800 text-white px-6 py-2 rounded-lg text-sm md:text-base lg:text-lg hover:bg-gray-700 transition"
           >
             Twitter
