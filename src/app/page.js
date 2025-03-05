@@ -13,7 +13,6 @@ export default function Home() {
   
   return (
     <div className="bg-black text-neonGreen min-h-screen m-0">
-      <header className="p-6 text-center font-bold text-xl">Reward.io</header>
       <main>
 
 
