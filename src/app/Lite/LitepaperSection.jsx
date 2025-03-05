@@ -1,5 +1,6 @@
 'use client';
 import React from "react";
+import Link from "next/link"; // Assuming Next.js; remove if not applicable
 
 export default function LitepaperSection() {
   const scrollToContent = () => {
@@ -10,7 +11,20 @@ export default function LitepaperSection() {
   };
 
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col justify-center items-center p-8 space-y-12">
+    <div className="bg-black text-white min-h-screen flex flex-col p-8 space-y-12">
+      {/* Navigation Bar */}
+      <nav className="w-full max-w-4xl mx-auto flex justify-between items-center py-4">
+        <div className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+          PWINT
+        </div>
+        <Link
+          href="/"
+          className="text-lg font-semibold text-white bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-2 rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
+        >
+          Back to Home
+        </Link>
+      </nav>
+
       {/* Clickable Litepaper Section */}
       <div
         onClick={scrollToContent}
@@ -27,7 +41,7 @@ export default function LitepaperSection() {
       {/* Litepaper Content */}
       <div
         id="litepaper-content"
-        className="bg-gradient-to-br from-gray-800 to-gray-900 p-10 mt-12 rounded-xl shadow-lg max-w-4xl w-full"
+        className="bg-gradient-to-br from-gray-800 to-gray-900 p-10 mt-12 rounded-xl shadow-lg max-w-4xl w-full mx-auto"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 border-b-2 border-purple-500 pb-2">
           Litepaper Introduction
