@@ -31,7 +31,7 @@ export default function LitepaperSection() {
         className="cursor-pointer text-center bg-gradient-to-r from-gray-800 to-gray-900 p-10 rounded-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
       >
         <h2 className="text-4xl md:text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-          • Introduction
+          Introduction
         </h2>
         <p className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
           <span className="font-bold text-purple-300">PWINT</span>—Print Money in Network Transaction—is a <span className="italic">trailblazing token</span> on the Solana blockchain, designed to turn holding into a <span className="text-green-300">passive income stream</span> by delivering <span className="font-semibold">SOL rewards every 10 minutes</span>. Built on Solana’s high-speed, low-cost network, PWINT embodies its name: a system that “prints” wealth through seamless network transactions. <span className="text-yellow-300">Join us in revolutionizing DeFi rewards.</span>
@@ -44,7 +44,7 @@ export default function LitepaperSection() {
         className="bg-gradient-to-br from-gray-800 to-gray-900 p-10 mt-12 rounded-xl shadow-lg max-w-4xl w-full mx-auto"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 border-b-2 border-purple-500 pb-2">
-          • Litepaper Introduction
+           Litepaper Introduction
         </h2>
 
         <div className="space-y-8 text-lg md:text-xl leading-loose">
