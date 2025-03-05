@@ -18,7 +18,7 @@ export default function Home() {
 
 
         
-        <Navbar/>
+        {/* <Navbar/> */}
         {/* <LitepaperSection/> */}
         <HeroSection/>
         <NewFeatureSection/>

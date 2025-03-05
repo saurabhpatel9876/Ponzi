@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 export default function HeroSection() {
     return (
       <section className="bg-black text-center text-white min-h-screen flex flex-col justify-center items-center space-y-6 p-8">
@@ -42,10 +43,10 @@ export default function HeroSection() {
             Twitter
           </a>
           <a
-            href="#"
+            href="Lite"
             className="bg-gray-800 text-white px-6 py-2 rounded-lg text-sm md:text-base lg:text-lg hover:bg-gray-700 transition"
           >
-            Telegram
+            LitePaper
           </a>
         </div>
       </section>
