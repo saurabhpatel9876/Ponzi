@@ -20,11 +20,11 @@ export default function Home() {
         
         <Navbar/>
         {/* <LitepaperSection/> */}
-        {/* <HeroSection/> */}
+        <HeroSection/>
         <NewFeatureSection/>
         {/* <HowItWorks /> */}
         <FeatureCards/>
-        <HeroSection/>
+        
         <Tokenomics/>
       </main>
     </div>

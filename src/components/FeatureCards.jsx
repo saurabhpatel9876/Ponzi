@@ -13,10 +13,7 @@ const features = [
     title: "Compound Growth",
     description: "Reinvest your rewards to maximize earnings and accelerate your wealth accumulation.",
   },
-  {
-    title: "Toeknomics",
-    description: "Our token is designed with a fair distribution model and a sustainable reward mechanism..",
-  },
+  
 ];
 
 export default function FeatureCards() {
