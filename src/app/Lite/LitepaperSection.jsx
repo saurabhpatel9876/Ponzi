@@ -27,7 +27,7 @@ PWINT—Print Money in Network Transaction—is a trailblazing token on the Sola
       {/* Hidden Litepaper Content */}
       <div
         id="litepaper-content"
-        className="hidden md:block bg-gray-800 p-8 mt-12 rounded-lg shadow-lg"
+        className=" md:block bg-gray-800 p-8 mt-12 rounded-lg shadow-lg"
       >
         <h2 className="text-3xl md:text-4xl font-bold">Litepaper Introduction</h2>
         <p className="text-lg md:text-xl">

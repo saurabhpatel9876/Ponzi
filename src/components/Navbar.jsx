@@ -9,9 +9,9 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-900 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* <Link href="/Lite" className="text-2xl font-bold">
+        <Link href="/Lite" className="text-2xl font-bold">
           Litepaper
-        </Link> */}
+        </Link>
 
         {/* Mobile Menu Button */}
         {/* <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
@@ -19,22 +19,21 @@ export default function Navbar() {
         </button> */}
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6">
-          <li><Link href="/Lite" className="hover:text-gray-300">LitePaper</Link></li>
-          {/* <li><Link href="/about" className="hover:text-gray-300">About</Link></li>
-          <li><Link href="/services" className="hover:text-gray-300">Services</Link></li>
-          <li><Link href="/contact" className="hover:text-gray-300">Contact</Link></li> */}
-        </ul>
+        {/* <ul className="hidden md:flex space-x-6">
+          <li><Link href="/Lite" className="hover:text-gray-300 text-2xl font-bold">LitePaper</Link></li>
+        
+        </ul> */}
       </div>
 
       {/* Mobile Menu */}
        {isOpen && (
-        <ul className="md:hidden bg-gray-800 p-4 flex flex-col space-y-3">
-          <li><Link href="/Lite" className="block" onClick={() => setIsOpen(false)}>LitePaper</Link></li>
-          {/* <li><Link href="/about" className="block" onClick={() => setIsOpen(false)}>About</Link></li>
-          <li><Link href="/services" className="block" onClick={() => setIsOpen(false)}>Services</Link></li>
-          <li><Link href="/contact" className="block" onClick={() => setIsOpen(false)}>Contact</Link></li> */}
-        </ul>
+          <Link href="/Lite" className="text-2xl font-bold">
+          Litepaper
+        </Link>
+        // <ul className="text-2xl font-bold md:hidden bg-gray-800 p-4 flex flex-col space-y-3">
+        //   {/* <li><Link href="/Lite" className="block" onClick={() => setIsOpen(false)}>LitePaper</Link></li> */}
+         
+        // </ul>
       )}
 
 
