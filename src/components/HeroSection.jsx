@@ -26,7 +26,7 @@ export default function HeroSection() {
         <a href="https://x.com/pwint_sol" className="bg-gray-800 text-white px-4 py-2 rounded-lg text-sm md:text-base hover:bg-gray-700 transition">
           Twitter
         </a>
-        <a href="Lite" className="bg-gray-800 text-white px-4 py-2 rounded-lg text-sm md:text-base hover:bg-gray-700 transition">
+        <a href="LitePaper" className="bg-gray-800 text-white px-4 py-2 rounded-lg text-sm md:text-base hover:bg-gray-700 transition">
           LitePaper
         </a>
       </div>

@@ -27,7 +27,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
        {isOpen && (
-          <Link href="/Lite" className="text-2xl font-bold">
+          <Link href="/LitePaper" className="text-2xl font-bold">
           Litepaper
         </Link>
         // <ul className="text-2xl font-bold md:hidden bg-gray-800 p-4 flex flex-col space-y-3">
